@@ -1,0 +1,8 @@
+streamlit
+plotly
+altair
+pandas
+numpy
+datetime
+joblib
+sklearn
