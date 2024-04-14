@@ -44,7 +44,7 @@ def main():
 			submit_text = st.form_submit_button(label='Submit')
 
 		if submit_text:
-			col1,col2  = st.beta_columns(2)
+			col1,col2  = st.columns(2)
 
 			# Apply Fxn Here
 			prediction = predict_emotions(raw_text)
